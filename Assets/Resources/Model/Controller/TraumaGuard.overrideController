@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TraumaGuard
+  m_Controller: {fileID: 9100000, guid: 8c4ffec36419d3b4587ff8b0ff45bd08, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400040, guid: 5c1a7f08c15994365a2d0b0afba374a3, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: bede123a98d8d0742bc4b49bdeeb59c4, type: 3}
+  - m_OriginalClip: {fileID: 7400054, guid: 5c1a7f08c15994365a2d0b0afba374a3, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 5600b07a55591c9499e7ab603290fc44, type: 3}
+  - m_OriginalClip: {fileID: 7400046, guid: 5c1a7f08c15994365a2d0b0afba374a3, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 57ad30e2d9b0bc94a9094e5fca741aa5, type: 3}

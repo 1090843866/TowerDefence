@@ -410,7 +410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4692477725749572}
-  - component: {fileID: 95493634627691892}
+  - component: {fileID: 95042554690271306}
   m_Layer: 0
   m_Name: Orc_Warrior
   m_TagString: Untagged
@@ -798,7 +798,7 @@ Transform:
   m_Father: {fileID: 4379087653025314}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &95493634627691892
+--- !u!95 &95042554690271306
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
@@ -806,11 +806,11 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1921465262398662}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 86b564acc259b4148ba5963494cc4f48, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 4cc070e9f222e0744a00d869739560fb, type: 2}
+  m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1

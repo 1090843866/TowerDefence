@@ -199,7 +199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4697652727987352}
-  - component: {fileID: 95186248746645288}
+  - component: {fileID: 95204826796034170}
   m_Layer: 0
   m_Name: Orc_Shaman
   m_TagString: Untagged
@@ -800,7 +800,7 @@ Transform:
   m_Father: {fileID: 4018845699297800}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &95186248746645288
+--- !u!95 &95204826796034170
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
@@ -808,11 +808,11 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1409362967136198}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 2b404b49a6d953444b23183990e004bc, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 22100000, guid: 4cc070e9f222e0744a00d869739560fb, type: 2}
+  m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
