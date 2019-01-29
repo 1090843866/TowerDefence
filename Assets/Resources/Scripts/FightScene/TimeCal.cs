@@ -28,7 +28,7 @@ public class TimeCal : MonoBehaviour
         {
             parTimeSpan *= timeSpeed;
             parTimeCount = parTimeSpan;
-            //出兵
+            //TODO：出兵,掉用函数
 
         }
         //总时间增加

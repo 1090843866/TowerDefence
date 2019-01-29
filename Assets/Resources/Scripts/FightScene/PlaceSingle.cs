@@ -34,6 +34,7 @@ public class PlaceSingle : MonoBehaviour
 
             //生成英雄
             GameObject go = GameObject.Instantiate(obj.gameObject, place, false);
+            go.transform.SetAsLastSibling();
             return true;
         }
         return false;
