@@ -7,12 +7,12 @@ using UnityEngine.UI;
 /// </summary>
 public class CardInfoCon : MonoBehaviour
 {
-    public string cardName;
-    public int cardCost;
+    public int cardIndex;
+    private string cardName;
+    private int cardCost;
 	// Use this for initialization
 	void Start ()
     {
-
         this.GetComponent<Button>().onClick.AddListener(SetHero);
 	}
 	
@@ -27,8 +27,7 @@ public class CardInfoCon : MonoBehaviour
     }
     public void SetHero()
     {
-        GameObject obj = Resources.Load<GameObject>("Model/Prefab/Mori");
-        Debug.Log(obj.name);
-        PlaceSingle.instance.SetHero(null, obj);
+        GameObject obj = Resources.Load<GameObject>("Model/PrefabHero/" + CardBasicInfo.Instance.GetCardName(cardIndex));
+        PlaceSingle.instance.SetHero(null, obj, cardIndex);
     }
 }

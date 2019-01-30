@@ -10,7 +10,13 @@ public class SceneInitCon : MonoBehaviour
     void Start()
     {
         //场景初始化控制卡牌生成
-
+        List<int> data = new List<int>(5);
+        data.Add(1);
+        data.Add(3);
+        data.Add(5);
+        data.Add(7);
+        data.Add(2);
+        InitCardInfo(data);
     }
     /// <summary>
     /// 初始化卡片生成
@@ -22,9 +28,8 @@ public class SceneInitCon : MonoBehaviour
         {
             GameObject go = GameObject.Instantiate(cardPref, heroParent, false);
             //go.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("Textures/FightScene/" + CardBasicInfo.Instance.GetCardInfo(i));
-            go.GetComponentInChildren<Image>().sprite = Resources.Load<Sprite>("Textures/FightScene/" + "battle-end_04");
-            go.GetComponent<CardInfoCon>().cardName = CardBasicInfo.Instance.GetCardName(i);
-            go.GetComponent<CardInfoCon>().cardCost = CardBasicInfo.Instance.GetCardCost(i);
+            go.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("Textures/FightScene/" + "battle-end_04");
+            go.GetComponent<CardInfoCon>().cardIndex = i;
         }
     }
 }

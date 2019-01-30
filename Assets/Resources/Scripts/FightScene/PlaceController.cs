@@ -19,7 +19,7 @@ public class PlaceController : MonoBehaviour
     void OnMouseUpAsButton()
     {
         //点击放置的物体
-        bool result = PlaceSingle.instance.SetHero(this.transform, null);
+        bool result = PlaceSingle.instance.SetHero(this.transform, null, -1);
         if(result)
         {
             //播放声音吧
