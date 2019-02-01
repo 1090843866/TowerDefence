@@ -12,6 +12,8 @@ public class PlaceSingle : MonoBehaviour
     void Awake()
     {
         instance = this;
+        place = null;
+        obj = null;
     }
     /// <summary>
     /// 点击放置生成英雄

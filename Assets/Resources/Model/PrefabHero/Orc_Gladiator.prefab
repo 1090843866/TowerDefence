@@ -50,6 +50,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4319587081164476}
   - component: {fileID: 95795310278885900}
+  - component: {fileID: 114914839849452110}
+  - component: {fileID: 195992993395375472}
   m_Layer: 0
   m_Name: Orc_Gladiator
   m_TagString: Untagged
@@ -816,6 +818,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114914839849452110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1050212201009488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4228d69284a76e448b9fb28d51ff7a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heroIndex: 0
+  target: {fileID: 0}
+  isOnListener: 0
 --- !u!137 &137081296904039892
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -885,3 +901,24 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.031736135, y: 0.12343708, z: -0.026288927}
     m_Extent: {x: 0.8983859, y: 0.6433077, z: 0.59959877}
   m_DirtyAABB: 0
+--- !u!195 &195992993395375472
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1050212201009488}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.3
+  m_Speed: 5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 1

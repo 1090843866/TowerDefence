@@ -26,7 +26,7 @@ public class HeroInfoCon
     {
         get
         {
-            if(Instance == null)
+            if(_instance == null)
             {
                 _instance = new HeroInfoCon();
             }
@@ -71,7 +71,7 @@ public class HeroInfoCon
         {
             heroName = "BoneDragon",
             attackPower = 15,
-            attackRange = 2,
+            attackRange = 4,
             defensePower = 12,
             hp = 100,
             skillType = 00,
@@ -81,7 +81,7 @@ public class HeroInfoCon
         {
             heroName = "MaleMarksman",
             attackPower = 15,
-            attackRange = 2,
+            attackRange = 15,
             defensePower = 12,
             hp = 100,
             skillType = 00,
@@ -91,7 +91,7 @@ public class HeroInfoCon
         {
             heroName = "Mori",
             attackPower = 15,
-            attackRange = 2,
+            attackRange = 15,
             defensePower = 12,
             hp = 100,
             skillType = 00,
@@ -101,7 +101,7 @@ public class HeroInfoCon
         {
             heroName = "MouseDragoRedBig",
             attackPower = 15,
-            attackRange = 2,
+            attackRange = 10,
             defensePower = 12,
             hp = 100,
             skillType = 00,
@@ -111,7 +111,7 @@ public class HeroInfoCon
         {
             heroName = "Orc_Assassin",
             attackPower = 15,
-            attackRange = 2,
+            attackRange = 5,
             defensePower = 12,
             hp = 100,
             skillType = 00,
@@ -191,7 +191,7 @@ public class HeroInfoCon
         {
             heroName = "OspreyCaptian",
             attackPower = 15,
-            attackRange = 2,
+            attackRange = 8,
             defensePower = 12,
             hp = 100,
             skillType = 00,

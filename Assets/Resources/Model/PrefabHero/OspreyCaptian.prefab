@@ -996,6 +996,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4545576337341136}
   - component: {fileID: 95710382615238940}
+  - component: {fileID: 114732365986284642}
+  - component: {fileID: 195603402134918550}
+  - component: {fileID: 114106158328312762}
   m_Layer: 0
   m_Name: OspreyCaptian
   m_TagString: Untagged
@@ -2236,6 +2239,34 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114106158328312762
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1741803437066654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4228d69284a76e448b9fb28d51ff7a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heroIndex: 0
+  target: {fileID: 0}
+  isOnListener: 0
+--- !u!114 &114732365986284642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1741803437066654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4228d69284a76e448b9fb28d51ff7a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heroIndex: 0
+  target: {fileID: 0}
+  isOnListener: 0
 --- !u!137 &137310542859558216
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -2357,3 +2388,24 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.027290493, y: 0.038350463, z: 0.101648405}
     m_Extent: {x: 0.6561966, y: 0.71209735, z: 0.59000397}
   m_DirtyAABB: 0
+--- !u!195 &195603402134918550
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1741803437066654}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 1

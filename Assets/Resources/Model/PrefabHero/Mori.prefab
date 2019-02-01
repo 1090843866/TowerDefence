@@ -1055,6 +1055,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4400417688142482}
   - component: {fileID: 95991523521755658}
+  - component: {fileID: 114214588717727268}
+  - component: {fileID: 195688159639390168}
   m_Layer: 0
   m_Name: Mori
   m_TagString: Untagged
@@ -3373,6 +3375,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114214588717727268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1616835930170668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4228d69284a76e448b9fb28d51ff7a9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heroIndex: 0
+  target: {fileID: 0}
+  isOnListener: 0
 --- !u!137 &137356843301393246
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -3528,3 +3544,24 @@ SkinnedMeshRenderer:
     m_Center: {x: -13.863045, y: 24.24052, z: 0.38975906}
     m_Extent: {x: 56.286346, y: 48.833126, z: 47.928112}
   m_DirtyAABB: 0
+--- !u!195 &195688159639390168
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1616835930170668}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 4.19
+  m_Speed: 5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 0
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 35.04
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 1

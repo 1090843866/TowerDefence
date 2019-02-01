@@ -12,10 +12,10 @@ public class SceneInitCon : MonoBehaviour
         //场景初始化控制卡牌生成
         List<int> data = new List<int>(5);
         data.Add(1);
-        data.Add(3);
-        data.Add(5);
-        data.Add(7);
         data.Add(2);
+        data.Add(3);
+        data.Add(4);
+        data.Add(0);
         InitCardInfo(data);
     }
     /// <summary>
